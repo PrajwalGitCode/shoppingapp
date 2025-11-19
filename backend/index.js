@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ["https://monumental-banoffee-shopping.netlify.app/login"], // your Netlify frontend
+  origin: ["https://monumental-banoffee-shopping.netlify.app"], // your Netlify frontend
   credentials: true
 }));
 app.use(express.json());
