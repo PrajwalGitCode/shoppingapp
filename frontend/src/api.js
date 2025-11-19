@@ -1,7 +1,7 @@
 // src/api.js
 import axios from "axios";
 
-const API_URL = "https://shoppingapp-a3kt.onrender.com";
+const API_URL = "https://shoppingapp-a3kt.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_URL,
